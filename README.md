@@ -11,7 +11,7 @@ cd quarkus quarkus--testresouces-example
 
 ```
 mvn test
-quarkus mvn:test
+mvn quarkus:test
 ```
 
 ## 2 times `Profile test activated`
@@ -19,7 +19,7 @@ quarkus mvn:test
 uncomment all `@TestProfile`
 ```
 mvn test
-quarkus mvn:test
+mvn quarkus:test
 ```
 
 ## once only `Profile test activated`
@@ -28,5 +28,5 @@ re-comment all `@TestProfile`
 uncomment all ` //, scope = TestResourceScope.GLOBAL)`
 ```
 mvn test
-quarkus mvn:test
+mvn quarkus:test
 ```
