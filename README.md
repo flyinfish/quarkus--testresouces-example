@@ -24,7 +24,7 @@ quarkus mvn:test
 
 ## once only `Profile test activated`
 
-re-comment all `@TestProfile(KafkaProfile.class)`
+re-comment all `@TestProfile`
 uncomment all ` //, scope = TestResourceScope.GLOBAL)`
 ```
 mvn test
