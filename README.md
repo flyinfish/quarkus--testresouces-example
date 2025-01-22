@@ -16,7 +16,7 @@ quarkus mvn:test
 
 ## 2 times `Profile test activated`
 
-uncomment all `@TestProfile(KafkaProfile.class)`
+uncomment all `@TestProfile`
 ```
 mvn test
 quarkus mvn:test
